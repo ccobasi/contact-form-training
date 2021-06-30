@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&family=Inter:wght@400;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -47,7 +48,8 @@ main {
   flex-direction: column;
 }
 
-.intro, .about-me {
+.intro,
+.about-me {
   background-color: #1c1a19;
   color: white;
   position: relative;
@@ -64,7 +66,8 @@ main {
   bottom: 0;
 }
 
-.intro-greet, .about-me h2 {
+.intro-greet,
+.about-me h2 {
   color: #ff6b00;
   font-family: "Crete Round", serif;
   font-style: normal;
@@ -143,7 +146,8 @@ main {
   border-color: #212121;
 }
 
-.first-card-description, .card {
+.first-card-description,
+.card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -157,7 +161,8 @@ main {
   height: auto;
 }
 
-.description, .white-description {
+.description,
+.white-description {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -166,7 +171,8 @@ main {
   color: #fff;
 }
 
-.blue-color, .blue-color * {
+.blue-color,
+.blue-color * {
   color: #091e42 !important;
 }
 
@@ -254,7 +260,8 @@ li {
   background: rgba(0, 0, 0, 0.349);
 }
 
-.about-me, .about-me-section {
+.about-me,
+.about-me-section {
   width: 100%;
   display: flex;
   justify-content: center;
