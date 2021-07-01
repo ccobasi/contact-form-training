@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta  charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css" />
     <title>Aziz Mejri - Portfolio</title>
   </head>
@@ -287,29 +289,36 @@
               </ul>
             </li>
           </ul>
-        </div>
-      </div>
+          </div>
+          </div>
+          <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/"
+            method="post">
 
-      <form>
-          <h2>Contact Me</h2>
-          <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-          <div class="form-row">
-            <div class="form-group col-md-2">
-              <label for="inputEmail4">Email</label>
-              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-            </div>
-            <div class="form-group col-md-2">
-              <label for="inputName" class="label">Name</label>
-              <input type="password" class="form-control" id="inputName" placeholder="Your name">
-            </div>
-          </div>
-          <div class="c col-md-5">
-            <label for="inputMessage">Your Message</label>
-            <textarea class="form-control" id="inputMessage"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Get In Touch</button>
-        </form>
+            <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+            <fieldset id="fs-frm-inputs">
+              <label for="full-name">Full Name</label>
+              <input type="text" name="name" id="full-name" placeholder="First and Last" maxlength="30" required>
+              <label for="email-address">Email Address</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required>
+              <label for="message">Message</label>
+              <textarea rows="5" name="message" id="message" maxlength="500"
+                placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
+                required></textarea>
+              <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Submit">
+          </form>
     </main>
+
+    <footer>
+      <div class="svgs">
+        <img src="./media/svg/github.svg" alt="">
+        <img src="./media/svg/linkedin.svg" alt="">
+        <img src="./media/svg/angel.svg" alt="">
+        <img src="./media/svg/twitter.svg" alt="">
+        <img src="./media/svg/medium.svg" alt="">
+      </div>
+    </footer>
 
     <script
       src="https://kit.fontawesome.com/e966a3bd22.js"
